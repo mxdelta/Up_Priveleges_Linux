@@ -10,4 +10,7 @@ sudo nmap --script=$TF
 
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi
 
+https://gtfobins.github.io/
+
+
 
