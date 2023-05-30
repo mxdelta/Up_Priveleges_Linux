@@ -15,7 +15,7 @@ sudo nmap --script=$TF
 
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi
 
-https://gtfobins.github.io/
+https://gtfobins.github.io/  повышение привелегий через судо-приложения
 
 
 https://github.com/rebootuser/LinEnum
