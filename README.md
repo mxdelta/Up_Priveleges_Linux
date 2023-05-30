@@ -18,4 +18,10 @@ https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi
 https://gtfobins.github.io/
 
 
+https://github.com/rebootuser/LinEnum
+
+
+
+
+
 
