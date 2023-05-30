@@ -24,6 +24,12 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20an
 
 
 
+реверс генератор
+
+
+https://www.revshells.com/
+
+
 
 
 
