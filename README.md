@@ -36,4 +36,7 @@ https://www.revshells.com/
 
 
 
+Также вы можете загрузить zip-файл с RustHound https://github.com/OPENCYBER-FR/RustHound/archive/master.zip
+
+
 
