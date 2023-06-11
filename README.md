@@ -45,3 +45,4 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 /bin/bash -p - это команда запуска интерпретатора командной строки Bash с флагом -p, который означает "privileged mode" (привилегированный режим).
 
 
+Psexec -i \\192.168.50.200 -u administrator -s cmd.exe Привелигерованный режим...
