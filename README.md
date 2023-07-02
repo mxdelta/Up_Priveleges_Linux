@@ -1,3 +1,10 @@
+
+
+Скрипты повышения привелегий 
+
+https://github.com/rebootuser/LinEnum
+https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
+
 Информация о системе в txt-файле:
 
         дистрибутив;
