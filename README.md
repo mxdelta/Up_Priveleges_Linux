@@ -66,7 +66,7 @@ https://www.revshells.com/
 wget https://example.com/file.zip - стянуть файйл с сервера. У себя сервер - python3 -m http.server 8080
 
 
-Запустить терминал
+Запустить интерактивную оболочку
 
 script /dev/null -c bash
 
