@@ -78,5 +78,8 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 # Найти файлы владельцем которого является группа
 find / -group bugtracker 2>/dev/null
 
+# Найти файлы владельцем которого является пользователь
+find / -type f -user emily 2>/dev/null
+
 # Найти строки из всех файлов где есть passw
 cat * | grep -i passw*
