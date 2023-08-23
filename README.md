@@ -83,3 +83,6 @@ find / -type f -user emily 2>/dev/null
 
 # Найти строки из всех файлов где есть passw
 cat * | grep -i passw*
+
+# Найти запущенные процессы 
+ps -aux
