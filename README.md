@@ -90,3 +90,7 @@ cat * | grep -i passw*
 ps -aux
 
 pspy64 (Надо скачивать)
+
+# Найти все файлы с пермишеном S
+
+find / -user root -perm -4000 -exec ls -ldb {} \;
