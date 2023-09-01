@@ -70,7 +70,11 @@ wget https://example.com/file.zip - стянуть файйл с сервера.
 script /dev/null -c bash
 
 повысить до tty командой 
+
 python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+export TERM=xterm
+
 
 /bin/bash -p - это команда запуска интерпретатора командной строки Bash с флагом -p, который означает "privileged mode" (привилегированный режим).
 
