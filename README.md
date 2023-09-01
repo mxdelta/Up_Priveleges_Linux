@@ -5,6 +5,8 @@
 https://github.com/rebootuser/LinEnum
 https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
+wget https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh | sh
+
 Информация о системе в txt-файле:
 
         дистрибутив;
