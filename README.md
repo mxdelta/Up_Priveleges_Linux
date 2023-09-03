@@ -85,8 +85,13 @@ find / -group bugtracker 2>/dev/null
 find / -type f -user emily 2>/dev/null
 
 # Найти строки из всех файлов где есть passw
+
 cat * | grep -i passw*
+
 grep -r "passw".
+
+grep -rni 'enter_network'
+
 # Найти запущенные процессы 
 ps -aux
 
