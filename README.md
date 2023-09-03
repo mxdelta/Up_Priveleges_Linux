@@ -73,7 +73,7 @@ wget https://example.com/file.zip - стянуть файйл с сервера.
 
 script /dev/null -c bash
 
-повысить до tty командой 
+повысить до tty интелектуальной оболочки командой 
 
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 
