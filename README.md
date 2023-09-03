@@ -104,4 +104,7 @@ pspy64 (Надо скачивать)
 # Найти все файлы с пермишеном S
 
 find / -user root -perm -4000 -exec ls -ldb {} \;
+
 find / -user root -perm -u=s -type f 2>/dev/null
+
+find / -perm -u=s 2>/dev/null
