@@ -90,7 +90,7 @@ cat * | grep -i passw*
 
 grep -r "passw".
 
-grep -rni 'enter_network'
+grep -rni 'enter_network' (поиск везде от текущей)
 
 # Найти запущенные процессы 
 ps -aux
