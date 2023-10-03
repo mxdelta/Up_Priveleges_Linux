@@ -66,6 +66,7 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20an
 
 реверс генератор
 
+https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php   (Лучший PHP)
 
 https://www.revshells.com/
 
