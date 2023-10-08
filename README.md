@@ -1,3 +1,8 @@
+# Полезные комманды Линукс
+
+https://putty.org.ru/articles/unix-linux-ref
+
+
 # открыть gui 
 open .
 
