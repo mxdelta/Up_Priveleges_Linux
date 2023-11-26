@@ -119,6 +119,10 @@ ps -aux
 
 pspy64 (Надо скачивать)
 
+https://github.com/DominicBreuker/pspy
+
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.0.0/pspy64s
+
 # Найти все файлы с пермишеном S
 
 find / -user root -perm -4000 -exec ls -ldb {} \;
