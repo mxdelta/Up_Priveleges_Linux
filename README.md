@@ -1,3 +1,16 @@
+# pkexec
+Как понять, подвержены ли ваши дистрибутивы уязвимости pkexec:
+
+whereis pkexec
+
+which pkexec
+
+ls -la /usr/bin/pkexec
+
+find / -type f -name pkexec
+
+POC — https://github.com/berdav/CVE-2021-4034.
+
 # Полезные комманды Линукс
 
 https://putty.org.ru/articles/unix-linux-ref
