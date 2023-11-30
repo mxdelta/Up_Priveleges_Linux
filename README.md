@@ -9,7 +9,7 @@ ls -la /usr/bin/pkexec
 
 find / -type f -name pkexec
 
-POC — https://github.com/berdav/CVE-2021-4034.
+poc - https://github.com/arthepsy/CVE-2021-4034
 
 # Полезные комманды Линукс
 
