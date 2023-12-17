@@ -150,3 +150,9 @@ find / -perm -u=s 2>/dev/null
 # Найти все сетевые соежинения 
 
  ss -tulpn
+
+# Разрешенные пермишены
+
+Sudo -l
+
+getcap -r / 2>/dev/null
