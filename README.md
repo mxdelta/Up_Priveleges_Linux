@@ -122,13 +122,16 @@ find / -group bugtracker 2>/dev/null
 # Найти файлы владельцем которого является пользователь
 find / -type f -user emily 2>/dev/null
 
-# Найти строки из всех файлов где есть passw
+# ПОИСК ПАРОЛЕЙ
 
 cat * | grep -i passw*
 
 grep -r "passw".
 
 grep -rni 'enter_network' (поиск везде от текущей)
+
+for i in $(grep -oP "('.*?')" -R . --no-filename);do x=$(echo -n $i | ent| grep Entropy| awk '{print $3}' ); echo "$x $i"; done | sort -n
+(поиск всего, заключенного в  '   ' особенно для паролей с применением ентропии)
 
 # Найти запущенные процессы 
 ps -aux
