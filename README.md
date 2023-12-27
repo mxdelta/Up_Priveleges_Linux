@@ -93,6 +93,10 @@ export TERM=xterm
         find / -user root -perm -u=s -type f 2>/dev/null
 
         find / -perm -u=s 2>/dev/null
+# найти файл по имени
+
+        find / -name "mysql*"
+
 # ПОИСК ПАРОЛЕЙ
 
         cat * | grep -i passw*
