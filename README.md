@@ -28,6 +28,7 @@
 процессы
        
         ps aux
+        ps -ef
         pspy64 (Надо скачивать)
 
         https://github.com/DominicBreuker/pspy
