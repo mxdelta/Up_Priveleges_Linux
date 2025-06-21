@@ -1,3 +1,8 @@
+# pspy для поиска процессов
+
+        wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
+        scp pspy64 rebecca_smith@sorcery.htb:/tmp/pspy64
+
 # Скрипты повышения привелегий 
 
         https://github.com/rebootuser/LinEnum
